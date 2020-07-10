@@ -1,0 +1,113 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:fillViewport="true"
+        android:gravity="center|top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center|bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/coresans_cr_medium"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Aplikasi Kedua (Receiver)"
+                android:textColor="@color/colorBalck"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/coresans_cr_medium"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Latihan Content Provider"
+                android:textColor="@color/colorBalck"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/coresans_cr_medium"
+                android:textColor="@color/colorGrey1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Pemrograman Android 3"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/button_add"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rounded_area"
+                    android:elevation="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/btn_load"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rounded_area"
+                        android:fontFamily="@font/coresans_cr_extrabold"
+                        android:gravity="center"
+                        android:onClick="doLoad"
+                        android:text="Load Data"
+                        android:textColor="@color/colorBalck"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="350dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/coresans_cr_regular"
+                android:textColor="@color/colorGrey1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="41170588 Ahmad Fauzi"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
